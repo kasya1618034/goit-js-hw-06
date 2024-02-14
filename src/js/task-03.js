@@ -33,6 +33,6 @@ const galleryImages = document.querySelectorAll(".gallery-img");
 galleryImages.forEach(image => {
   image.style.maxWidth = "100%";
   image.style.height = "auto";
-  image.style.padding = "10px"
+  image.style.padding = "10px";
 });
 
