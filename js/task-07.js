@@ -1,4 +1,5 @@
-document.getElementById("font-size-control").addEventListener("input", function () {
-    let fontSize = this.value + "px";
-    document.getElementById("text").style.fontSize = fontSize;
+const fontSizeControl = document.getElementById("font-size-control");
+const text = document.getElementById("text");
+fontSizeControl.addEventListener("input", function () {
+    text.style.fontSize = `${fontSizeControl.value}px`;
 });
